@@ -38,7 +38,8 @@ set pastetoggle=<F2>
 let mapleader=','
 inoremap jj <Esc>`^
 " 切换Buffer窗口
-
+nnoremap <leader>[ :bpre<CR>
+nnoremap <leader>] :bnext<CR>
 " 用Ctrl + h/j/k/l 或Ctrl + 上/下/左/右 来切换window窗口
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -48,6 +49,9 @@ nnoremap <C-LEFT> <C-w>h
 nnoremap <C-DOWN> <C-w>j
 nnoremap <C-UP> <C-w>k
 nnoremap <C-RIGHT> <C-w>l
+" 切换Tab窗口
+nnoremap <S-TAB> :tabnext<CR>
 " 配置nerdtree的映射
 nnoremap <leader>f :NERDTreeFind<CR>
 nnoremap <leader>g :NERDTreeToggle<CR>
+
