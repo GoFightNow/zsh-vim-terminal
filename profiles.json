@@ -18,13 +18,21 @@
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "name": "Windows PowerShell",
         "commandline": "powershell.exe",
-        "hidden": false
+        "hidden": true
       },
       {
         // Make changes here to the cmd.exe profile
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "name": "cmd",
         "commandline": "cmd.exe",
+        "hidden": false,
+        "colorScheme": "Atom"
+      },
+      {
+        "guid": "{1c4de342-38b7-51cf-b940-2309a097f589}",
+        "name": "Git-Bash",
+        "commandline": "D:\\Git\\bin\\bash.exe",
+        "icon": "D:\\Git\\git.png",
         "hidden": false,
         "colorScheme": "Atom"
       },
