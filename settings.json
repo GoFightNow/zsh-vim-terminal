@@ -5,6 +5,8 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
   "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502",
+  "initialCols": 80,
+  "initialRows": 20,
   "profiles": {
     "defaults": {
       // Put settings here that you want to apply to all profiles
